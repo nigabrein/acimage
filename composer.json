@@ -1,0 +1,29 @@
+{
+    "name": "nigabrein/acimage",
+    "description": "Библиотека для ресайза и кропа изображений на yii2",
+    "type": "yii2-extension",
+    "homepage": "*",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikita",
+            "email": "itanikobolow@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "shevchik87\\acimage\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1"
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
