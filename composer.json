@@ -2,7 +2,7 @@
     "name": "nigabrein/acimage",
     "description": "Библиотека для ресайза и кропа изображений на yii2",
     "type": "yii2-extension",
-    "homepage": "*",
+    "keywords": ["yii2","extension"," acimage"],
     "license": "MIT",
     "authors": [
         {
@@ -20,7 +20,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1"
+            "dev-master": "0.1-dev"
         },
         "asset-installer-paths": {
             "bower-asset-library": "vendor/bower"
