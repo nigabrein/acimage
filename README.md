@@ -32,6 +32,8 @@ use nigabrein\acimage\AcImagePNG;
 ```
 
 ```
+$targetPath = 'images/folder1/folder2/file.png';
+
 $img = AcImage::createImage(Yii::getAlias('@web').$targetPath);
 $sizes = [800, 400, 150];
 $thumbnails_folder = 3;
